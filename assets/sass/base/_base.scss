@@ -1,0 +1,58 @@
+// COLORS VARIABLES
+:root {
+    --color-red: #DF1219;
+    --color-blue: #0F699D;
+    --color-black: #000;
+    --color-green: #095306; 
+    --color-yellow: #F0B80F;
+    --color-white: #fff;
+
+}
+
+// Basic site styling
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    color: var(--color-white);
+    background-color: var(--color-black);
+    min-height: 100vh;
+    
+}
+    
+    
+#background-image {
+    background-image: url('/assets/images/logosmall.png');
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position-x: center;
+    background-attachment: fixed;
+    // padding: 50rem;
+}
+
+.container {
+    padding: 0 3rem;
+}
+
+.notification-container {
+    padding-top: 45rem;
+}
+// Ensure paragraphs fill the column form end to end
+p {
+    text-align: justify;
+}
