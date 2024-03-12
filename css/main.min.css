@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@348;400&display=swap");
 :root {
-  --color-red: #DF1219;
-  --color-blue: #0F699D;
+  --color-green-secondary: #135343;
   --color-black: #000;
-  --color-green: #095306;
-  --color-yellow: #F0B80F;
-  --color-white: #fff; }
+  --color-green: #005f40;
+  --color-white: #ededed; }
 
 * {
   margin: 0;
@@ -23,21 +21,22 @@ html {
 
 body {
   color: var(--color-white);
-  background-color: var(--color-black);
+  background-color: var(--color-green);
   min-height: 100vh; }
 
-#background-image {
-  background-image: url("/assets/images/logosmall.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position-x: center;
-  background-attachment: fixed; }
-
 .container {
-  padding: 0 3rem; }
+  padding: 0 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); }
 
 .notification-container {
-  padding-top: 45rem; }
+  padding-top: 35rem; }
 
 p {
   text-align: justify; }
@@ -85,3 +84,12 @@ body {
 
 .social a {
   color: var(--color-white); }
+
+#logo img {
+  width: 500px;
+  height: 500px; }
+
+@media (max-width: 500px) {
+  #logo img {
+    width: 325px;
+    height: 325px; } }
