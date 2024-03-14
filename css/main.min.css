@@ -76,6 +76,13 @@ body {
 .paragraph {
   font-weight: var(--font-weight-light); }
 
+.url-link-white, .url-link-white:hover {
+  color: var(--color-white); }
+
+.url-link-white:hover {
+  font-weight: bold;
+  transition: .5s; }
+
 .social a i {
   width: 32px;
   height: 32px;
