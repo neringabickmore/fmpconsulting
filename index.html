@@ -43,8 +43,8 @@
     <!-- header -->
     <header class="container-fluid">
         <!-- mobile nav-->
-        <div class="row d-md-none d-block">
-            <nav class="col-12 d-flex navbar pt-3 pt-sm-5 px-3 px-sm-5">
+        <div class="row d-md-none d-block mobile-nav-row ">
+            <nav class="col-12 d-flex navbar pt-5 pe-3">
                 <!-- nav bars -->
                 <div class="align-self-center collapsed ms-auto navbar-toggler" aria-controls=navigation
                     aria-expanded=false data-bs-target=#mobilenavigation data-bs-toggle=collapse role=button
@@ -54,8 +54,15 @@
                         <div class="bar2"></div>
                     </div>
                 </div>
-            </nav><!-- mobile  menu -->
-            <div class="pb-3 collapse" id=mobilenavigation>
+            </nav>
+            <!-- Logo -->
+            <div class="col-12 d-flex justify-content-center">
+            <a class="" href="#">
+                <img src="https://res.cloudinary.com/dktjdf0v1/image/upload/v1710193343/fmpconsulting/Original_cyzx0v.png"
+                    alt="" id="logo_img">
+            </a></div>
+            <!-- mobile  menu -->
+            <div class="p-3 collapse" id=mobilenavigation>
                 <ul class="align-items-center ml-auto navbar-nav">
                     <!-- Hello -->
                     <li class=nav-item><a href=index.html class=nav-link-header>Hello</a></li>
@@ -70,9 +77,6 @@
                             consultation</a></li>
                 </ul>
             </div>
-            <!-- Logo -->
-            <!-- <div class="col-12 text-center pt-0"><a href=index.html aria-label="go to welcome page" id=logo><img alt=logo
-                        src=assets/images/Phase2.0-logo-narrow.png id=logo__img></a></div> -->
             <!-- Slogan container -->
             <!-- <div class="col-12 text-center d-none d-sm-block pb-5">
                 <h2 class="h2 h2-slogan">Expert Evaluation, Strategic Advice, and Results-Driven Execution</h2>
@@ -80,14 +84,15 @@
         </div>
         <!-- desktop nav -->
         <div class="row d-none d-md-block desktop-nav-row">
-            <nav class="col-12 d-flex navbar navbar-expand pt-3 pt-sm-5 px-3 px-sm-5">
+            <nav class="col-12 navbar navbar-expand px-3 px-sm-5">
                 <div class="container-fluid">
+                    <!-- Logo -->
                     <a class="navbar-brand" href="#">
                         <img src="https://res.cloudinary.com/dktjdf0v1/image/upload/v1710193343/fmpconsulting/Original_cyzx0v.png"
                             alt="" id="logo_img">
                     </a>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav  me-auto">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav justify-content-center">
                             <!-- Hello -->
                             <li class="nav-item active" aria-current="page"><a href=index.html
                                     class="nav-link-header">Hello</a></li>
@@ -99,7 +104,7 @@
                             <li class="nav-item"><a href=index.html#contact class="nav-link-header">Contact</a></li>
                         </ul>
                         <!-- Book a free consultation-->
-                        <div class="consultation-btn" type="button"><a href="/" class="nav-link-header"
+                        <div class="consultation-btn ms-auto" type="button"><a href="/" class="nav-link-header"
                                 rel="noopener noreferrer" target="_blank">Free consultation</a></div>
                     </div>
                 </div>

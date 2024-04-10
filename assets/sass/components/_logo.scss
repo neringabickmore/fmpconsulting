@@ -3,10 +3,10 @@
     height: 350px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 760px) {
 
     #logo img {
-        width: 325px;
-        height: 325px;
+        width: auto;
+        height: 200px;
     }
 }

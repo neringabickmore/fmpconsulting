@@ -98,10 +98,10 @@ body {
   width: auto;
   height: 350px; }
 
-@media (max-width: 500px) {
+@media (max-width: 760px) {
   #logo img {
-    width: 325px;
-    height: 325px; } }
+    width: auto;
+    height: 200px; } }
 
 #barsContainer {
   display: inline-block;
@@ -111,7 +111,7 @@ body {
 .bar2 {
   width: 25px;
   height: 3px;
-  background-color: var(--color-green);
+  background-color: var(--color-white);
   margin: 5px 0;
   transition: .4s;
   -webkit-transition: .4s;
@@ -134,7 +134,7 @@ body {
   -o-transform: translate(0, -6px) rotate(45deg); }
 
 /* header - site navigation */
-.desktop-nav-row {
+.desktop-nav-row, .mobile-nav-row {
   background-color: var(--color-green); }
 
 .navbar #navigation {
