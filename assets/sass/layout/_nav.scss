@@ -1,4 +1,8 @@
 /* header - site navigation */
+
+.desktop-nav-row {
+    background-color: var(--color-green);
+}
 .navbar #navigation {
     margin-right: -15px;
     margin-left: -15px;
@@ -17,7 +21,7 @@
     font-family: var(--font-text);
     font-weight: bold;
     letter-spacing: 0.1vw;
-    color: var(--color-green);
+    color: var(--color-white);
     align-items: end;
 
 }
@@ -29,6 +33,21 @@
     text-decoration: none;
     background-color: var(--color-green-secondary);
     color: var(--color-white);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.nav-item:hover {
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    transform: translateY(5px);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
 }
 
 .fa-grip-lines {
