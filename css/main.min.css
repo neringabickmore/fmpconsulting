@@ -3,7 +3,9 @@
   --color-green-secondary: #135343;
   --color-black: #000;
   --color-green: #005f40;
-  --color-white: #ededed; }
+  --color-white: #ededed;
+  --color-coral: #f2827f;
+  --color-coral-secondary: #ee5d58; }
 
 * {
   margin: 0;
@@ -92,9 +94,9 @@ body {
 .social a {
   color: var(--color-white); }
 
-#logo img {
-  width: 500px;
-  height: 500px; }
+#logo_img {
+  width: auto;
+  height: 350px; }
 
 @media (max-width: 500px) {
   #logo img {
@@ -157,7 +159,8 @@ body {
 .nav-link-header:focus,
 .nav-link-header:hover,
 .dropdown-menu-header li a:focus,
-.dropdown-menu-header li a:hover {
+.dropdown-menu-header li a:hover,
+.consultation-btn:hover {
   text-decoration: none;
   background-color: var(--color-green-secondary);
   color: var(--color-white);
@@ -167,7 +170,8 @@ body {
   -ms-transition: .5s;
   -o-transition: .5s; }
 
-.nav-item:hover {
+.nav-item:hover,
+.consultation-btn:hover {
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);
   transform: translateY(5px);
@@ -180,3 +184,9 @@ body {
 .fa-grip-lines {
   color: var(--color-green);
   font-size: 2.5rem; }
+
+.consultation-btn {
+  background-color: var(--color-coral); }
+
+.consultation-btn:hover, .consultation-btn a:hover {
+  background-color: var(--color-coral-secondary); }

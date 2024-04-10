@@ -29,7 +29,8 @@
 .nav-link-header:focus,
 .nav-link-header:hover,
 .dropdown-menu-header li a:focus,
-.dropdown-menu-header li a:hover {
+.dropdown-menu-header li a:hover, 
+.consultation-btn:hover {
     text-decoration: none;
     background-color: var(--color-green-secondary);
     color: var(--color-white);
@@ -39,7 +40,8 @@
     -ms-transition: .5s;
     -o-transition: .5s;
 }
-.nav-item:hover {
+.nav-item:hover, 
+.consultation-btn:hover {
     -webkit-transform: translateY(5px);
     -ms-transform: translateY(5px);
     transform: translateY(5px);
@@ -53,4 +55,11 @@
 .fa-grip-lines {
     color: var(--color-green);
     font-size: 2.5rem;
+}
+
+.consultation-btn {
+    background-color: var(--color-coral);
+}
+.consultation-btn:hover, .consultation-btn a:hover {
+    background-color: var(--color-coral-secondary);
 }
