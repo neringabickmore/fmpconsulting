@@ -2,6 +2,8 @@
 :root {
   --color-green-secondary: #135343;
   --color-black: #000;
+  --color-grey: #343a40;
+  --color-grey-secondary: #495057;
   --color-green: #005f40;
   --color-white: #ededed;
   --color-coral: #f2827f;
@@ -22,7 +24,7 @@ html {
   padding: 0; }
 
 body {
-  color: var(--color-white);
+  color: var(--color-grey);
   background-color: var(--color-white);
   min-height: 100vh; }
 
@@ -132,6 +134,14 @@ body {
   -moz-transform: translate(0, -6px) rotate(45deg);
   -ms-transform: translate(0, -6px) rotate(45deg);
   -o-transform: translate(0, -6px) rotate(45deg); }
+
+.index__img {
+  width: 450px;
+  height: 500px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 20%;
+  object-position: 50% 20%; }
 
 /* header - site navigation */
 .desktop-nav-row, .mobile-nav-row {
