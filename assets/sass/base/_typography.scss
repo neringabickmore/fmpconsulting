@@ -45,10 +45,10 @@ body {
     font-weight: var(--font-weight-light);
 }
 
-.url-link-white, .url-link-white:hover {
-    color: var(--color-white);
+.url-link, .url-link:hover {
+    color: var(--color-coral);
 }
-.url-link-white:hover {
+.url-link:hover {
     font-weight: bold;
     transition: .5s;
 }

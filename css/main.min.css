@@ -80,10 +80,10 @@ body {
 .paragraph {
   font-weight: var(--font-weight-light); }
 
-.url-link-white, .url-link-white:hover {
-  color: var(--color-white); }
+.url-link, .url-link:hover {
+  color: var(--color-coral); }
 
-.url-link-white:hover {
+.url-link:hover {
   font-weight: bold;
   transition: .5s; }
 
@@ -200,3 +200,11 @@ body {
 
 .consultation-btn:hover, .consultation-btn a:hover {
   background-color: var(--color-coral-secondary); }
+
+#contact-section-background {
+  background-image: url("https://res.cloudinary.com/dktjdf0v1/image/upload/v1712870553/fmpconsulting/pexels-cottonbro-studio-4065617_ukicru.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  color: var(--color-coral); }
