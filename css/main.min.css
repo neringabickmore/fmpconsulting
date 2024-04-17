@@ -81,7 +81,7 @@ body {
   font-weight: var(--font-weight-light); }
 
 .url-link, .url-link:hover {
-  color: var(--color-coral); }
+  color: var(--color-green); }
 
 .url-link:hover {
   font-weight: bold;
@@ -206,5 +206,4 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 500px;
-  color: var(--color-coral); }
+  height: 500px; }
