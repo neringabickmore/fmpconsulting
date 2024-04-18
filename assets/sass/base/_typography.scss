@@ -45,6 +45,9 @@ body {
 .paragraph {
     font-weight: var(--font-weight-light);
 }
+.small-print {
+    font-size: calc(var(--font-small-print) + .2vw);
+}
 
 .url-link, .url-link:hover {
     color: var(--color-white);

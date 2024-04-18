@@ -82,6 +82,9 @@ body {
 .paragraph {
   font-weight: var(--font-weight-light); }
 
+.small-print {
+  font-size: calc(var(--font-small-print) + .2vw); }
+
 .url-link, .url-link:hover {
   color: var(--color-white); }
 
@@ -89,15 +92,6 @@ body {
   font-weight: bold;
   transition: .5s;
   color: var(--color-coral-secondary); }
-
-.social a i {
-  width: 32px;
-  height: 32px;
-  padding: 1.2rem 0;
-  font-size: 3rem; }
-
-.social a {
-  color: var(--color-white); }
 
 #logo_img {
   width: auto;
@@ -146,6 +140,43 @@ body {
   -o-object-position: 50% 20%;
   object-position: 50% 20%; }
 
+.footer {
+  background-color: var(--color-coral);
+  color: var(--color-white);
+  padding: 4rem;
+  min-height: 33rem;
+  font-size: calc(var(--font-xxs) + .4vw); }
+  .footer__link a {
+    color: var(--color-white); }
+  .footer__link a:hover {
+    color: var(--color-green);
+    text-decoration: none;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s; }
+  .footer__social a {
+    color: var(--color-white);
+    text-decoration: none; }
+  .footer__social a i {
+    color: var(--color-coral) !important;
+    background-color: var(--color-white) !important;
+    width: 32px;
+    height: 32px;
+    padding: 11.5px 7.5px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 10px; }
+  .footer__social a:hover > i {
+    background-color: var(--color-green) !important;
+    color: var(--color-white) !important;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s; }
+
 /* header - site navigation */
 .desktop-nav-row, .mobile-nav-row {
   background-color: var(--color-green); }
@@ -175,7 +206,7 @@ body {
 .dropdown-menu-header li a:hover,
 .consultation-btn:hover {
   text-decoration: none;
-  background-color: var(--color-green-secondary);
+  background-color: var(--color-coral-secondary);
   color: var(--color-white);
   transition: .5s;
   -webkit-transition: .5s;
