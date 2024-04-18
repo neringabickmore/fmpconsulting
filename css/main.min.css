@@ -134,11 +134,20 @@ body {
 
 .index__img {
   width: 400px;
-  height: 500px;
+  height: 550px;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: 50% 20%;
   object-position: 50% 20%; }
+
+.acorn__img {
+  height: 150px;
+  width: 150px;
+  opacity: .8; }
+
+.acorn__img-icon {
+  height: 15px;
+  width: 15px; }
 
 .footer {
   background-color: var(--color-coral);
