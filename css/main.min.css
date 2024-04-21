@@ -188,6 +188,40 @@ body {
     -ms-transition: .5s;
     -o-transition: .5s; }
 
+/** Go Up button **/
+#goUpBtn {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+  border: 1.75px solid var(--color-green);
+  padding: .5px;
+  outline: none;
+  background-color: var(--color-white);
+  color: var(--color-green);
+  cursor: pointer;
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px; }
+
+#goUpBtn:hover {
+  background-color: var(--color-green);
+  color: var(--color-white);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s; }
+
+#goUpBtn:hover > i {
+  color: var(--color-white); }
+
+.fa-angles-up {
+  font-size: 16px;
+  color: var(--color-green); }
+
 /* header - site navigation */
 .desktop-nav-row, .mobile-nav-row {
   background-color: var(--color-green); }
