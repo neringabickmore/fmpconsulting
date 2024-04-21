@@ -6,3 +6,17 @@
     height: 500px;
     color: var(--color-white);
 }
+
+.hr-line {
+    width: 85%;
+    color: var(--color-green);
+    opacity: 1;
+    border: 1px;
+    border-style: solid;
+    margin-top: 3rem;
+}
+
+#contact p {
+    font-family: var(--font-header);
+    font-style: italic;
+}
