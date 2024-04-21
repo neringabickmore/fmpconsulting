@@ -19,8 +19,9 @@
 .dropdown-menu-header li a {
     font-size: 1.2rem;
     font-family: var(--font-text);
-    font-weight: bold;
-    letter-spacing: 0.1vw;
+    font-weight: var(--font-semi-bold);
+    // font-family: var(--font-header);
+    letter-spacing: 0.2vw;
     color: var(--color-white);
     align-items: end;
 
