@@ -5,7 +5,7 @@ $(document).ready(function(){
      * shows loader. 
      * Original code idea from stack overflow
      */
-    $('.slow-loader').fadeOut(1800);
+    $('.slow-loader').fadeOut(2500);
     /* This function changes the style of 
     navbar bars when the user clicks on the bars.
     */ 
