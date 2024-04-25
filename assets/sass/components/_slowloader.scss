@@ -1,0 +1,31 @@
+/* Loader... */
+// .slow-loader {
+//     // position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     z-index: 99999999;
+//     // background-color: var(--color-coral);
+//     background: url('https://res.cloudinary.com/dktjdf0v1/image/upload/v1712870558/fmpconsulting/sergey-zolkin-_UeY8aTI6d0-unsplash_h5cxcl.jpg') center center no-repeat;;
+//     // background-repeat: no-repeat;
+//     // background-attachment: fixed;
+//     // background-size: cover;
+// }
+.slow-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+    var(--color-white)url('https://res.cloudinary.com/dktjdf0v1/image/upload/v1713477947/fmpconsulting/greatoaks-removebg-preview_y7pnpi.png') center center no-repeat;
+    z-index: 9999;
+    // opacity: 0;
+    /*Initiallyhidden*/transition: opacity 2s ease-in-out;
+     /* Adjust the duration as needed */
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -ms-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+}
