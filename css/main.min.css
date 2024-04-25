@@ -194,11 +194,11 @@ body {
   bottom: 2rem;
   right: 2rem;
   z-index: 99;
-  border: 1.75px solid var(--color-green);
+  border: 1.75px solid var(--color-white);
   padding: .5px;
   outline: none;
-  background-color: var(--color-white);
-  color: var(--color-green);
+  background-color: var(--color-green);
+  color: var(--color-white);
   cursor: pointer;
   border-radius: 50%;
   vertical-align: middle;
@@ -206,7 +206,7 @@ body {
   height: 32px; }
 
 #goUpBtn:hover {
-  background-color: var(--color-green);
+  background-color: var(--color-coral);
   color: var(--color-white);
   transition: .5s;
   -webkit-transition: .5s;
@@ -219,7 +219,7 @@ body {
 
 .fa-angles-up {
   font-size: 16px;
-  color: var(--color-green); }
+  color: var(--color-white); }
 
 /* Loader... */
 .slow-loader {
