@@ -151,7 +151,7 @@ body {
   width: 50px; }
 
 .footer {
-  background-color: var(--color-coral);
+  background-color: var(--color-green);
   color: var(--color-white);
   padding: 4rem;
   min-height: 33rem;
@@ -159,7 +159,7 @@ body {
   .footer__link a {
     color: var(--color-white); }
   .footer__link a:hover {
-    color: var(--color-green);
+    color: var(--color-coral);
     text-decoration: none;
     transition: .5s;
     -webkit-transition: .5s;
@@ -170,7 +170,7 @@ body {
     color: var(--color-white);
     text-decoration: none; }
   .footer__social a i {
-    color: var(--color-coral) !important;
+    color: var(--color-green) !important;
     background-color: var(--color-white) !important;
     width: 32px;
     height: 32px;
@@ -179,7 +179,7 @@ body {
     border-radius: 50%;
     line-height: 10px; }
   .footer__social a:hover > i {
-    background-color: var(--color-green) !important;
+    background-color: var(--color-coral) !important;
     color: var(--color-white) !important;
     transition: .5s;
     -webkit-transition: .5s;

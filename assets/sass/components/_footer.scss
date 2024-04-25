@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--color-coral);
+    background-color: var(--color-green);
     color: var(--color-white);
     padding: 4rem;
     min-height: 33rem;
@@ -10,7 +10,7 @@
     }
 
     &__link a:hover {
-        color: var(--color-green);
+        color: var(--color-coral);
         text-decoration: none;
         transition: .5s;
         -webkit-transition: .5s;
@@ -26,7 +26,7 @@
     }
 
     &__social a i {
-        color: var(--color-coral) !important;
+        color: var(--color-green) !important;
         background-color: var(--color-white) !important;
         width: 32px;
         height: 32px;
@@ -37,7 +37,7 @@
     }
 
     &__social a:hover>i {
-        background-color: var(--color-green) !important;
+        background-color: var(--color-coral) !important;
         color: var(--color-white) !important;
         transition: .5s;
         -webkit-transition: .5s;
