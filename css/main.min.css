@@ -146,10 +146,6 @@ body {
   width: 150px;
   opacity: .8; }
 
-.acorn__img-icon {
-  height: 50px;
-  width: 50px; }
-
 .footer {
   background-color: var(--color-green);
   color: var(--color-white);
