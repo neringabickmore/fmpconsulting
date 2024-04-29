@@ -45,9 +45,9 @@ body {
     font-size: var(--font-normal);
 }
 
-.paragraph {
-    font-weight: var(--font-weight-normal);
-}
+// .paragraph {
+//     font-weight: var(--font-weight-normal);
+// }
 .small-print {
     font-size: calc(var(--font-small-print) + .2vw);
 }
@@ -59,4 +59,10 @@ body {
     font-weight: var(--font-weight-semi-bold);
     transition: .5s;
     color: var(--color-coral-secondary);
+}
+.italics {
+    font-style: italic;
+}
+.bold {
+    font-weight: var(--font-weight-semi-bold);
 }
