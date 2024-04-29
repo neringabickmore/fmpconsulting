@@ -41,7 +41,7 @@ body {
 .notification-container {
   padding-top: 35rem; }
 
-p {
+p, q {
   text-align: justify; }
 
 :root {
@@ -308,3 +308,9 @@ body {
 #contact p {
   font-family: var(--font-header);
   font-style: italic; }
+
+#recommendations {
+  min-height: 400px; }
+
+.carousel-item {
+  height: 500px; }
