@@ -10,7 +10,7 @@
     }
 
     &__link a:hover {
-        color: var(--color-coral);
+        color: var(--color-coral-secondary);
         text-decoration: none;
         transition: .5s;
         -webkit-transition: .5s;
@@ -37,7 +37,7 @@
     }
 
     &__social a:hover>i {
-        background-color: var(--color-coral) !important;
+        background-color: var(--color-coral-secondary) !important;
         color: var(--color-white) !important;
         transition: .5s;
         -webkit-transition: .5s;

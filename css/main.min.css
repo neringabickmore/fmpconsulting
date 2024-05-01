@@ -159,7 +159,7 @@ body {
   .footer__link a {
     color: var(--color-white); }
   .footer__link a:hover {
-    color: var(--color-coral);
+    color: var(--color-coral-secondary);
     text-decoration: none;
     transition: .5s;
     -webkit-transition: .5s;
@@ -179,7 +179,7 @@ body {
     border-radius: 50%;
     line-height: 10px; }
   .footer__social a:hover > i {
-    background-color: var(--color-coral) !important;
+    background-color: var(--color-coral-secondary) !important;
     color: var(--color-white) !important;
     transition: .5s;
     -webkit-transition: .5s;
@@ -206,7 +206,7 @@ body {
   height: 32px; }
 
 #goUpBtn:hover {
-  background-color: var(--color-coral);
+  background-color: var(--color-coral-secondary);
   color: var(--color-white);
   transition: .5s;
   -webkit-transition: .5s;
@@ -220,6 +220,13 @@ body {
 .fa-angles-up {
   font-size: 16px;
   color: var(--color-white); }
+
+.fa-angle-left, .fa-angle-right {
+  font-size: 26px;
+  color: var(--color-green); }
+
+.fa-angle-left:hover, .fa-angle-right:hover {
+  color: var(--color-coral-secondary); }
 
 /* Loader... */
 .slow-loader {
@@ -309,8 +316,32 @@ body {
   font-family: var(--font-header);
   font-style: italic; }
 
-#recommendations {
-  min-height: 400px; }
+.carousel {
+  display: flex;
+  justify-content: center; }
+
+.carousel-inner {
+  height: 550px; }
 
 .carousel-item {
-  height: 500px; }
+  height: 550px;
+  margin-right: 0;
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0); }
+
+.carousel-item.active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); }
+
+.carousel-control-next {
+  justify-content: end;
+  opacity: 1; }
+
+.carousel-control-prev {
+  justify-content: start;
+  opacity: 1; }

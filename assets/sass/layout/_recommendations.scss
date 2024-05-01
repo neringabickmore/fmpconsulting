@@ -1,7 +1,31 @@
-#recommendations {
-  min-height: 400px;
+.carousel {
+  display: flex;
+  justify-content: center;
 }
-
+.carousel-inner {
+  height: 550px;
+  // max-width: 100%;
+}
 .carousel-item {
-  height: 500px;
+  height: 550px;
+  margin-right: 0;
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+}
+.carousel-item.active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.carousel-control-next {
+  justify-content: end;
+  opacity: 1;
+}
+.carousel-control-prev {
+  justify-content: start;
+  opacity: 1;
 }

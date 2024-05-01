@@ -19,7 +19,7 @@
 }
 
 #goUpBtn:hover {
-    background-color: var(--color-coral);
+    background-color: var(--color-coral-secondary);
     color: var(--color-white);
     transition: .5s;
     -webkit-transition: .5s;
@@ -35,4 +35,13 @@
 .fa-angles-up {
     font-size: 16px;
     color: var(--color-white);
+}
+
+.fa-angle-left, .fa-angle-right {
+    font-size: 26px;
+    color: var(--color-green);
+}
+
+.fa-angle-left:hover, .fa-angle-right:hover {
+    color: var(--color-coral-secondary);
 }
