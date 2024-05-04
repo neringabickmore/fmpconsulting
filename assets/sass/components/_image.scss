@@ -1,12 +1,19 @@
-.index__img {
-    width: 500px;
-    height: 550px;
+.index__img_vertical, .index__img, .index__img_horizontal {
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: 50% 20%;
     object-position: 50% 20%;
 }
 
+.index__img_vertical, .index__img {
+    width: 400px;
+    height: 600px;
+}
+
+.index__img_horizontal {
+    width: 600px;
+    height: 400px;
+}
 .acorn__img {
     height: 150px;
     width: 150px;
