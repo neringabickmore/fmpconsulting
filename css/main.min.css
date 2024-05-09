@@ -107,6 +107,10 @@ body {
     width: auto;
     height: 300px; } }
 
+.rec-logo-footer {
+  width: 250px;
+  height: auto; }
+
 #barsContainer {
   display: inline-block;
   cursor: pointer; }
