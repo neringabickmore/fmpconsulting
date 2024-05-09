@@ -1,10 +1,10 @@
-.contact-section-background {
-    background-image: url('https://res.cloudinary.com/dktjdf0v1/image/upload/v1712870558/fmpconsulting/sergey-zolkin-_UeY8aTI6d0-unsplash_h5cxcl.jpg');
+#contact {
+    background-image: url('https://res.cloudinary.com/dktjdf0v1/image/upload/v1715285951/fmpconsulting/FMP_Brand-13_wpupup.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 500px;
-    color: var(--color-white);
+    height: 600px;
+    color: var(--color-green);
 }
 
 .hr-line {
@@ -19,4 +19,17 @@
 #contact p {
     font-family: var(--font-header);
     font-style: italic;
+    color: var(--color-green);
+}
+
+// Using rgba to achieve required opacity
+#contact .url-link {
+    color: rgba(0, 95, 64, 1)
+}
+#contact .url-link:hover {
+    color: rgba(238, 93, 88, 1);
+}
+#contact .row {
+    background-color: rgba(237, 237, 237, 0.7);
+
 }

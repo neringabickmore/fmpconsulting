@@ -84,7 +84,7 @@ body {
 .small-print {
   font-size: calc(var(--font-small-print) + .2vw); }
 
-.url-link, .url-link:hover {
+.url-link {
   color: var(--color-white); }
 
 .url-link:hover {
@@ -301,13 +301,13 @@ body {
 .consultation-btn:hover, .consultation-btn a:hover {
   background-color: var(--color-coral-secondary); }
 
-.contact-section-background {
-  background-image: url("https://res.cloudinary.com/dktjdf0v1/image/upload/v1712870558/fmpconsulting/sergey-zolkin-_UeY8aTI6d0-unsplash_h5cxcl.jpg");
+#contact {
+  background-image: url("https://res.cloudinary.com/dktjdf0v1/image/upload/v1715285951/fmpconsulting/FMP_Brand-13_wpupup.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 500px;
-  color: var(--color-white); }
+  height: 600px;
+  color: var(--color-green); }
 
 .hr-line {
   width: 25%;
@@ -319,7 +319,17 @@ body {
 
 #contact p {
   font-family: var(--font-header);
-  font-style: italic; }
+  font-style: italic;
+  color: var(--color-green); }
+
+#contact .url-link {
+  color: #005f40; }
+
+#contact .url-link:hover {
+  color: #ee5d58; }
+
+#contact .row {
+  background-color: rgba(237, 237, 237, 0.7); }
 
 .carousel {
   display: flex;
