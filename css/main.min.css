@@ -319,10 +319,9 @@ body {
 
 #contact p {
   font-family: var(--font-header);
-  font-style: italic;
-  color: var(--color-green); }
+  font-style: italic; }
 
-#contact .url-link {
+#contact, #contact .url-link {
   color: #005f40; }
 
 #contact .url-link:hover {
