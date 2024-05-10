@@ -29,3 +29,10 @@
   justify-content: start;
   opacity: 1;
 }
+
+@media (max-width: 700px) {
+
+  .carousel-item, .carousel-inner {
+    height: 700px;
+  }
+}
