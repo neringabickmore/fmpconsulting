@@ -18,6 +18,13 @@
     }
 }
 
+@media (max-width: 389px) {
+
+    .acorn__img {
+        display: none;
+    }
+}
+
 @media (min-width: 1024px) {
 
     .acorn__img {
