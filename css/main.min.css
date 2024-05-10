@@ -164,13 +164,13 @@ body {
   -o-object-position: 50% 20%;
   object-position: 50% 20%; }
 
-.index__img_vertical, .index__img {
-  width: 400px;
-  height: 600px; }
+.index__img_vertical {
+  width: 450px;
+  height: 650px; }
 
 .index__img_horizontal {
   width: 600px;
-  height: 400px; }
+  height: 500px; }
 
 @media (max-width: 992px) {
   .acorn__img {
