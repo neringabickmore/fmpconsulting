@@ -7,15 +7,6 @@
     color: var(--color-green);
 }
 
-.hr-line {
-    width: 25%;
-    color: var(--color-green);
-    opacity: 1;
-    border: 1px;
-    border-style: solid;
-    margin-top: 3rem;
-}
-
 #contact p {
     font-family: var(--font-header);
     font-style: italic;
@@ -32,4 +23,18 @@
 #contact .row {
     background-color: rgba(237, 237, 237, 0.7);
 
+}
+.hr-line {
+    width: 35%;
+    color: var(--color-green);
+    opacity: 1;
+    border: 1px;
+    border-style: solid;
+    margin-top: 3rem;
+}
+
+@media (max-width: 1000px) {
+    .hr-line {
+        width: 45%;
+    }
 }
