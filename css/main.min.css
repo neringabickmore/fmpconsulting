@@ -364,7 +364,7 @@ body {
 
 @media (max-width: 700px) {
   #contact {
-    height: 300px; } }
+    height: 800px; } }
 
 .carousel {
   display: flex;
