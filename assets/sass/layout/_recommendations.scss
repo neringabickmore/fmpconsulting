@@ -36,3 +36,10 @@
     height: 600px;
   }
 }
+
+@media (max-width: 390px) {
+
+  .carousel-item, .carousel-inner {
+    height: 750px;
+  }
+}

@@ -397,3 +397,7 @@ body {
 @media (max-width: 700px) {
   .carousel-item, .carousel-inner {
     height: 600px; } }
+
+@media (max-width: 390px) {
+  .carousel-item, .carousel-inner {
+    height: 750px; } }
