@@ -14,8 +14,10 @@
     width: 600px;
     height: 400px
 }
+@media (max-width: 992px) {
 .acorn__img {
     height: 150px;
     width: 150px;
-    opacity: .8;
+    opacity: .9;
+}
 }

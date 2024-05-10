@@ -1,17 +1,16 @@
-#logo_img {
-    width: auto;
-    height: 150px;
-}
-
-@media (max-width: 760px) {
-
-    #logo img {
-        width: auto;
-        height: 300px;
-    }
-}
-
 .rec-logo-footer {
     width: 250px;
     height: auto;
+}
+
+// #logo_img {
+//     width: auto;
+//     height: 150px;
+// }
+
+@media (max-width: 767px) {
+    #logo_img {
+        width: auto;
+        height: 150px;
+    }
 }

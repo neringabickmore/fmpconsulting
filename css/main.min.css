@@ -98,18 +98,31 @@ body {
 .bold {
   font-weight: var(--font-weight-semi-bold); }
 
-#logo_img {
-  width: auto;
-  height: 150px; }
+@media (min-width: 768px) {
+  #logo_img {
+    height: 125px;
+    width: auto; }
+  .nav-link-header,
+  .dropdown-menu-header li a {
+    font-size: 1rem; } }
 
-@media (max-width: 760px) {
-  #logo img {
-    width: auto;
-    height: 300px; } }
+@media (min-width: 992px) and (max-width: 1023px) {
+  .acorn__img {
+    display: none; } }
+
+@media (min-width: 1024px) {
+  .acorn__img {
+    height: 100px;
+    width: 100px; } }
 
 .rec-logo-footer {
   width: 250px;
   height: auto; }
+
+@media (max-width: 767px) {
+  #logo_img {
+    width: auto;
+    height: 150px; } }
 
 #barsContainer {
   display: inline-block;
@@ -155,10 +168,11 @@ body {
   width: 600px;
   height: 400px; }
 
-.acorn__img {
-  height: 150px;
-  width: 150px;
-  opacity: .8; }
+@media (max-width: 992px) {
+  .acorn__img {
+    height: 150px;
+    width: 150px;
+    opacity: .9; } }
 
 .footer {
   background-color: var(--color-green);
@@ -263,7 +277,6 @@ body {
 
 .nav-link-header,
 .dropdown-menu-header li a {
-  font-size: 1.2rem;
   font-family: var(--font-text);
   font-weight: var(--font-semi-bold);
   letter-spacing: 0.2vw;
@@ -304,6 +317,11 @@ body {
 
 .consultation-btn:hover, .consultation-btn a:hover {
   background-color: var(--color-coral-secondary); }
+
+@media (max-width: 767px) {
+  .nav-link-header,
+  .dropdown-menu-header li a {
+    font-size: 1.2rem; } }
 
 #contact {
   background-image: url("https://res.cloudinary.com/dktjdf0v1/image/upload/v1715285951/fmpconsulting/FMP_Brand-13_wpupup.jpg");
