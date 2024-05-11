@@ -31,7 +31,8 @@
 .nav-link-header:hover,
 .dropdown-menu-header li a:focus,
 .dropdown-menu-header li a:hover, 
-.consultation-btn:hover {
+.consultation-btn:hover,
+.consultation-btn a:hover {
     text-decoration: none;
     background-color: var(--color-coral-secondary);
     color: var(--color-white);
@@ -61,9 +62,9 @@
 .consultation-btn {
     background-color: var(--color-coral);
 }
-.consultation-btn:hover, .consultation-btn a:hover {
-    background-color: var(--color-coral-secondary);
-}
+// .consultation-btn:hover, .consultation-btn a:hover {
+//     background-color: var(--color-coral-secondary);
+// }
 
 @media (max-width: 767px) {
 
