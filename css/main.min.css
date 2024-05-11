@@ -41,7 +41,7 @@ body {
 .notification-container {
   padding-top: 35rem; }
 
-p, q {
+p, q, li {
   text-align: justify; }
 
 :root {
@@ -342,10 +342,10 @@ body {
   font-family: var(--font-header);
   font-style: italic; }
 
-#contact, #contact .url-link {
+#contact, #contact .url-link, .breadcrumb .url-link {
   color: #343a40; }
 
-#contact .url-link:hover {
+#contact .url-link:hover, .breadcrumb .url-link:hover {
   color: #ee5d58; }
 
 #contact .row {

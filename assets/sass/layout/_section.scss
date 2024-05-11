@@ -16,11 +16,11 @@
 }
 
 // Using rgba to achieve required opacity
-#contact, #contact .url-link {
+#contact, #contact .url-link, .breadcrumb .url-link {
     // color: rgba(0, 95, 64, 1);
     color: rgba(52, 58, 64, 1);
 }
-#contact .url-link:hover {
+#contact .url-link:hover, .breadcrumb .url-link:hover {
     color: rgba(238, 93, 88, 1);
 }
 #contact .row {
