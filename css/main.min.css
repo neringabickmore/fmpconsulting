@@ -48,8 +48,8 @@ p, q, li {
   --font-main:'Poppins', sans-serif;
   --font-header:'Lora', serif;
   --font-large: 3rem;
-  --font-medium: 2.5rem;
-  --font-normal: 2rem;
+  --font-medium: 2.6rem;
+  --font-normal: 2.2rem;
   --font-small: 1.4rem;
   --font-small-print: 1rem;
   --font-xxs: 1.2rem;
@@ -67,7 +67,8 @@ body {
 
 .h1,
 .h2,
-.h3 {
+.h3,
+.h4 {
   font-family: var(--font-header);
   text-transform: uppercase; }
 
@@ -80,6 +81,9 @@ body {
 
 .h3 {
   font-size: var(--font-normal); }
+
+.h4 {
+  font-size: 1.8rem; }
 
 .small-print {
   font-size: calc(var(--font-small-print) + .2vw); }
@@ -372,10 +376,10 @@ body {
   justify-content: center; }
 
 .carousel-inner {
-  height: 550px; }
+  height: 350px; }
 
 .carousel-item {
-  height: 550px;
+  height: 350px;
   margin-right: 0;
   opacity: 0;
   transform: translate3d(100%, 0, 0);
@@ -399,8 +403,8 @@ body {
 
 @media (max-width: 700px) {
   .carousel-item, .carousel-inner {
-    height: 600px; } }
+    height: 475px; } }
 
 @media (max-width: 390px) {
   .carousel-item, .carousel-inner {
-    height: 750px; } }
+    height: 710px; } }

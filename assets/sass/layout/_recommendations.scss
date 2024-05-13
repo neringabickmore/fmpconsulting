@@ -3,11 +3,11 @@
   justify-content: center;
 }
 .carousel-inner {
-  height: 550px;
+  height: 350px;
   // max-width: 100%;
 }
 .carousel-item {
-  height: 550px;
+  height: 350px;
   margin-right: 0;
   opacity: 0;
   transform: translate3d(100%, 0, 0);
@@ -33,13 +33,13 @@
 @media (max-width: 700px) {
 
   .carousel-item, .carousel-inner {
-    height: 600px;
+    height: 475px;
   }
 }
 
 @media (max-width: 390px) {
 
   .carousel-item, .carousel-inner {
-    height: 750px;
+    height: 710px;
   }
 }
