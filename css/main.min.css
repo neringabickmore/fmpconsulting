@@ -364,6 +364,20 @@ body {
   border-style: solid;
   margin-top: 3rem; }
 
+.animated-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; }
+
+.animated-section.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.6s; }
+
 @media (max-width: 1000px) {
   .hr-line {
     width: 45%; } }

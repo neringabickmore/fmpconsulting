@@ -16,6 +16,20 @@ $(document).ready(function(){
     function changeBars(i) {
         i.classList.toggle("change");
     }
+
+    $(window).scroll(function() {
+      var windowHeight = $(window).height();
+      var scrollPos = $(window).scrollTop();
+
+      $('.animated-section').each(function() {
+          var contentPos = $(this).offset().top;
+
+          // If the top of the section is visible within the window
+          if (scrollPos > contentPos - windowHeight + 100) {
+              $(this).addClass('show');
+          }
+      });
+  });
 });
 
 // GO Up button functionality
