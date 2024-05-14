@@ -371,6 +371,10 @@ body {
   #contact {
     height: 800px; } }
 
+@media (max-width: 768px) {
+  #contact {
+    background-image: url("https://res.cloudinary.com/dktjdf0v1/image/upload/v1715720854/fmpconsulting/narrow-FMP_Brand-13_nivhhu.png"); } }
+
 .carousel {
   display: flex;
   justify-content: center; }
