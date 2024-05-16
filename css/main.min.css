@@ -150,8 +150,7 @@ body {
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: 50% 20%;
-  object-position: 50% 20%;
-  box-shadow: 0 4px 8px rgba(52, 58, 64, 0.7); }
+  object-position: 50% 20%; }
 
 .index__img_vertical {
   width: 450px;
