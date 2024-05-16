@@ -62,6 +62,8 @@ body {
 }
 .url-link:hover {
     font-weight: var(--font-weight-semi-bold);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
     color: var(--color-coral-secondary);
 }

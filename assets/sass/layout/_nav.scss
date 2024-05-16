@@ -23,7 +23,9 @@
     // font-family: var(--font-header);
     letter-spacing: 0.2vw;
     color: var(--color-white);
-    align-items: end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end; 
 
 }
 

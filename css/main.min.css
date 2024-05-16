@@ -15,10 +15,12 @@
 *,
 *::before,
 *::after {
+  -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
 html {
   font-size: 62.5%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0; }
 
@@ -93,6 +95,8 @@ body {
 
 .url-link:hover {
   font-weight: var(--font-weight-semi-bold);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
   color: var(--color-coral-secondary); }
 
@@ -286,6 +290,8 @@ body {
   font-weight: var(--font-semi-bold);
   letter-spacing: 0.2vw;
   color: var(--color-white);
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: end; }
 
 .nav-link-header:focus,
@@ -366,6 +372,8 @@ body {
 .animated-section {
   opacity: 0;
   transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
@@ -374,7 +382,11 @@ body {
 
 .animated-section.show {
   opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
   transform: translateY(0);
+  -webkit-transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
   transition-delay: 0.6s; }
 
 @media (max-width: 1000px) {
@@ -391,6 +403,8 @@ body {
     background-attachment: scroll; } }
 
 .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center; }
 
@@ -402,7 +416,11 @@ body {
   margin-right: 0;
   opacity: 0;
   transform: translate3d(100%, 0, 0);
+  -webkit-transition: opacity 0.8s ease, -webkit-transform 0.8s ease;
+  transition: opacity 0.8s ease, -webkit-transform 0.8s ease;
+  -o-transition: opacity 0.8s ease, transform 0.8s ease;
   transition: opacity 0.8s ease, transform 0.8s ease;
+  transition: opacity 0.8s ease, transform 0.8s ease, -webkit-transform 0.8s ease;
   -webkit-transform: translate3d(100%, 0, 0);
   -moz-transform: translate3d(100%, 0, 0);
   -ms-transform: translate3d(100%, 0, 0);
@@ -410,13 +428,18 @@ body {
 
 .carousel-item.active {
   opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
 .carousel-control-next {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: end;
   opacity: 1; }
 
 .carousel-control-prev {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: start;
   opacity: 1; }
 
