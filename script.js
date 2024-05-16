@@ -33,7 +33,7 @@ $(document).ready(function(){
 });
 
 // GO Up button functionality
-const goUpBtn = document.getElementById("goUpBtn");
+var goUpBtn = document.getElementById("goUpBtn");
 /**
 * When the user scrolls down 
 * 20px from the top of the document
@@ -49,7 +49,7 @@ window.onscroll = function() {
 * Otherwise, the button remains invisible. 
 * the button to go up appears. 
 */
-const scrollFunction = () => {
+var scrollFunction = function() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       goUpBtn.style.display = "block";
     } else {
@@ -61,7 +61,7 @@ const scrollFunction = () => {
 * When the user clicks on the button
 * scroll to the top of the document
 */
-const topFunction = () => {
+var topFunction = function() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 };
