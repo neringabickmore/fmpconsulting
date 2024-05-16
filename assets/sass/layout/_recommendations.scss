@@ -43,3 +43,9 @@
     height: 710px;
   }
 }
+
+@media (min-width: 391px) and (max-width:639px ) {
+  .carousel-item, .carousel-inner {
+    height: 650px;
+  }
+}
