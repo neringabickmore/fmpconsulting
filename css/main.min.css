@@ -226,7 +226,7 @@ body {
   border: 1.75px solid var(--color-white);
   padding: .5px;
   outline: none;
-  background-color: var(--color-green);
+  background-color: rgba(0, 95, 64, 0.5);
   color: var(--color-white);
   cursor: pointer;
   border-radius: 50%;
