@@ -28,13 +28,11 @@
     <meta content=yes name=apple-touch-fullscreen>
     <meta content=black name=apple-mobile-web-app-status-bar-style>
     <meta content="telephone=no" name=format-detection>
-    <meta content="width=320,initial-scale=1,user-scalable=no" name=viewport>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- local CSS file location -->
     <link rel="stylesheet" href="css/main.min.css">
-    <script rel=" "></script>
     <!--  Font Awesome-->
     <script src="https://kit.fontawesome.com/3ca4663ed2.js" crossorigin="anonymous"></script>
     <!-- jQuery adding for event listeners -->
@@ -60,7 +58,7 @@
         <div class="row d-lg-none d-block mobile-nav-row ">
             <nav class="col-12 d-flex navbar pt-5 pe-3">
                 <!-- nav bars -->
-                <div class="align-self-center collapsed ms-auto navbar-toggler" aria-controls=navigation
+                <div class="align-self-center collapsed ms-auto navbar-toggler" aria-controls=barsContainer
                     aria-expanded=false data-bs-target=#mobilenavigation data-bs-toggle=collapse role=button
                     title="site navigation menu">
                     <div id=barsContainer>
@@ -77,9 +75,9 @@
                         alt="great oaks of acorn" class="acorn__img">
                 </div>
                 <!-- logo image -->
-                <a class="" href="/">
+                <a  href="/">
                     <img src="https://res.cloudinary.com/dktjdf0v1/image/upload/v1713392637/fmpconsulting/image001_cws66v.png"
-                        alt="" id="logo_img">
+                        alt="logo" class="logo_img">
                 </a>
             </div>
             <!-- mobile  menu -->
@@ -116,7 +114,7 @@
                     <!-- logo image -->
                     <a class="navbar-brand me-4" href="/">
                         <img src="https://res.cloudinary.com/dktjdf0v1/image/upload/v1713392637/fmpconsulting/image001_cws66v.png"
-                            alt="" id="logo_img">
+                            alt="logo image" class="logo_img">
                     </a>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul class="navbar-nav justify-content-center">
@@ -131,10 +129,10 @@
                                 <!-- Contact-->
                                 <li class=nav-item><a href=index.html#contact class=nav-link-header>Contact</a></li>
                                 <!-- Blog -->
-                                <li class=nav-item><a href=https://www.linkedin.com/company/fmpconsult/posts/?feedView=articles class=nav-link-header rel="noopener noreferrer" target=_blank>Blog</a></li>
+                                <li class=nav-item><a href="https://www.linkedin.com/company/fmpconsult/posts/?feedView=articles" class=nav-link-header rel="noopener noreferrer" target=_blank>Blog</a></li>
                         </ul>
                         <!-- Book a free consultation-->
-                        <div class="consultation-btn ms-auto text-center" type="button"><a href="https://meetings-eu1.hubspot.com/meetings/kate-parker/book-a-meeting-with-kate?uuid=a74b17d4-2516-408e-88a7-81046d7a20ff"
+                        <div class="consultation-btn ms-auto text-center"><a href="https://meetings-eu1.hubspot.com/meetings/kate-parker/book-a-meeting-with-kate?uuid=a74b17d4-2516-408e-88a7-81046d7a20ff"
                                 class="nav-link-header" rel="noopener noreferrer" target="_blank"><span>Free consultation</span></a>
                         </div>
                     </div>
@@ -307,7 +305,7 @@
                 </div>
                 <!-- book button -->
                 <div class="row justify-content-center  my-lg-5 my-2">
-                    <div class="col-sm-3 col-6 text-center consultation-btn" type="button"><a
+                    <div class="col-sm-3 col-6 text-center consultation-btn"><a
                             href="https://meetings-eu1.hubspot.com/meetings/kate-parker/book-a-meeting-with-kate?uuid=a74b17d4-2516-408e-88a7-81046d7a20ff"
                             class="nav-link-header p-0" rel="noopener noreferrer" target="_blank"><span>Book consultation</span></a>
                     </div>
@@ -540,6 +538,7 @@
                     <p class="text-center small-print">FMP Consulting Limited is a company 
                         limited by guarantee with company registration number 15555763</p>
                 </div>
+            </div>
             </div>
     </footer>
     <!-- Bootstrap Bundle with Popper -->
