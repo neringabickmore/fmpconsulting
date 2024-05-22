@@ -64,6 +64,10 @@
 .consultation-btn {
     background-color: var(--color-coral);
 }
+.consultation-btn span {
+    font-size: 1.8rem;
+}
+
 // .consultation-btn:hover, .consultation-btn a:hover {
 //     background-color: var(--color-coral-secondary);
 // }
@@ -73,6 +77,9 @@
     .nav-link-header,
     .dropdown-menu-header li a {
         font-size: 1.2rem;
+    }
+    .consultation-btn span {
+        font-size: 1.6rem;
     }
 }
 
