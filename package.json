@@ -12,6 +12,7 @@
   "author": "neringa bickmore",
   "license": "ISC",
   "dependencies": {
+    "latest": "^0.2.0",
     "node-sass": "^9.0.0",
     "run-all": "^1.0.1",
     "start": "^5.1.0"
