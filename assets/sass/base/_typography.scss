@@ -68,3 +68,18 @@ body {
 .bold {
     font-weight: var(--font-weight-semi-bold);
 }
+
+.url-link-terracotta, 
+.url-link-terracotta:hover{
+    color: var(--color-terracotta);
+}
+
+.url-link {
+    color: var(--color-grey);
+}
+
+.url-link:hover {
+    color: var(--color-coral);
+    font-weight: bold;
+    transition: .5s;
+}
