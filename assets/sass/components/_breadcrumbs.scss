@@ -1,0 +1,17 @@
+.breadcrumb-item a {
+    color: var(--color-coral);
+}
+
+.breadcrumb-item a:hover {
+    font-weight: bold;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.breadcrumb-item.active,
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--color-grey);
+}

@@ -337,6 +337,21 @@ body {
   background: var(--color-white) url("https://res.cloudinary.com/dktjdf0v1/image/upload/v1713477947/fmpconsulting/greatoaks-removebg-preview_y7pnpi.png") center center no-repeat;
   z-index: 9999; }
 
+.breadcrumb-item a {
+  color: var(--color-coral); }
+
+.breadcrumb-item a:hover {
+  font-weight: bold;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s; }
+
+.breadcrumb-item.active,
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--color-grey); }
+
 /* header - site navigation */
 .desktop-nav-row, .mobile-nav-row {
   background-color: var(--color-green); }
