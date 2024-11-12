@@ -1,0 +1,46 @@
+.client {
+
+    &__link,
+    &__link:active,
+    &__link::before {
+        color: var(--color-grey);
+        text-decoration: none;
+    }
+
+    &__link h3 {
+        text-decoration: underline;
+    }
+
+    &__link h3:hover {
+        color: var(--color-coral);
+        font-weight: bold;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+
+    &__col {
+        padding: 0;
+    }
+
+    &__col a:hover {
+        color: var(--color-grey);
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+    &__col .h2 {
+        // padding: 5rem;
+        margin-top: 5rem;
+    }
+
+    &__img {
+        width: 250px;
+        height: 250px;
+    }
+
+}

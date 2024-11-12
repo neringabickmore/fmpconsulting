@@ -46,3 +46,71 @@
 .fa-angle-left:hover, .fa-angle-right:hover {
     color: var(--color-coral-secondary);
 }
+
+// Consultation button
+
+.consultation-btn:hover,
+.consultation-btn a:hover {
+    text-decoration: none;
+    background-color: var(--color-coral-secondary);
+    color: var(--color-white);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+}
+
+.consultation-btn {
+    background-color: var(--color-coral);
+}
+.consultation-btn span {
+    font-size: 1.8rem;
+}
+
+@media (max-width: 767px) {
+    .consultation-btn span {
+        font-size: 1.6rem;
+    }
+}
+
+.btn {
+    border-radius: 0%!important;
+    border-width: 2px;
+    font-size: var(--font-s);
+    margin: 3px;
+    &__border {
+        border-color: var(--color-coral);
+    }
+    margin: 1rem 0;
+}
+
+.btn:link, 
+.btn:visited, 
+.btn:active,
+.btn span {
+    text-decoration: none;
+    color: var(--color-coral);
+}
+
+.btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-coral);
+    transform: translateY(3px);
+    transition: .5s;
+    -webkit-transform: translateY(3px);
+    -moz-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    -o-transform: translateY(3px);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.btn:hover > span {
+    color: var(--color-white);
+}

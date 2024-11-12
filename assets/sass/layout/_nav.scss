@@ -32,9 +32,7 @@
 .nav-link-header:focus,
 .nav-link-header:hover,
 .dropdown-menu-header li a:focus,
-.dropdown-menu-header li a:hover, 
-.consultation-btn:hover,
-.consultation-btn a:hover {
+.dropdown-menu-header li a:hover {
     text-decoration: none;
     background-color: var(--color-coral-secondary);
     color: var(--color-white);
@@ -44,8 +42,7 @@
     -ms-transition: .5s;
     -o-transition: .5s;
 }
-.nav-item:hover, 
-.consultation-btn:hover {
+.nav-item:hover {
     -webkit-transform: translateY(5px);
     -ms-transform: translateY(5px);
     transform: translateY(5px);
@@ -61,25 +58,11 @@
     font-size: 2.5rem;
 }
 
-.consultation-btn {
-    background-color: var(--color-coral);
-}
-.consultation-btn span {
-    font-size: 1.8rem;
-}
-
-// .consultation-btn:hover, .consultation-btn a:hover {
-//     background-color: var(--color-coral-secondary);
-// }
-
 @media (max-width: 767px) {
 
     .nav-link-header,
     .dropdown-menu-header li a {
         font-size: 1.2rem;
-    }
-    .consultation-btn span {
-        font-size: 1.6rem;
     }
 }
 
