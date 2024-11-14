@@ -17,6 +17,7 @@ $(document).ready(function(){
         i.classList.toggle("change");
     }
 
+    // Animated content load function as you scroll the page.
     $(window).scroll(function() {
       var windowHeight = $(window).height();
       var scrollPos = $(window).scrollTop();
