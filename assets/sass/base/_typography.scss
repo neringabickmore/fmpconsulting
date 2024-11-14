@@ -42,7 +42,7 @@ body {
 }
 
 .h3 {
-    font-size: var(--font-small);
+    font-size: calc(var(--font-small) + .2vw);
 }
 
 // .paragraph {

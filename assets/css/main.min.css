@@ -82,7 +82,7 @@ body {
   font-size: var(--font-medium); }
 
 .h3 {
-  font-size: var(--font-small); }
+  font-size: calc(var(--font-small) + .2vw); }
 
 .small-print {
   font-size: calc(var(--font-small-print) + .2vw); }
